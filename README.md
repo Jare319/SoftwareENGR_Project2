@@ -16,7 +16,7 @@ Usage:
 Our simulation is resizeable, meaning the user can specify the number of goats and pen size. Currently these variables are only set from within the program, so a user must edit these variables to use a custom size. As it stands, the GPU code is currently set to use a pen size of 13x13 with 121 goats, which should provide an adequate test of the program. The maximum pen size is unknown, we tested it with 101x101 and it handled it without problem. The maximum number of goats is (dimension of the pen - 2)^2, which is where 121 comes from with a pen size of 13x13.
 
 Verification:
-Due to the fact that our program only writes and reads data from the GPU once each, instead of every clock cycle means that we didn't have an effective way to store the movement data of each goat. With that said, the output of the code can be verified by the data printed after the program is run. The output of the program should produce several arrays:
+Due to the fact that our program only writes and reads data from the GPU once, instead of every clock cycle means that we didn't have an effective way to store the movement data of each goat. With that said, the output of the code can be verified by the data printed after the program is run. The output of the program should print out several arrays:
 
 [cells] this array contains the matrix of cells in the pen. A 1 indicates it is either occupied, or part of the pen wall, while a 0 indicates that cell is empty.
 
