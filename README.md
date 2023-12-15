@@ -1,5 +1,7 @@
 # SoftwareENGR_Project2
 
+Github: https://github.com/Jare319/SoftwareENGR_Project2/tree/main
+
 FOR GPU IMPLEMENTATION:
 Dependencies:
 * numba.cuda
